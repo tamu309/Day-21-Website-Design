@@ -1,0 +1,293 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+
+}
+
+/* navbar section start */
+
+#navbarSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#22092C;
+    color: white;
+    padding: 0 20px;
+
+}
+
+
+
+ul
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+li{
+    list-style: none;
+
+}
+/* navbar section end */
+
+
+/* banner section started */
+
+#bannerSection{
+    background-image: url(./banner.jpg);
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    
+   
+}
+#bannerSection h1{
+    font-size: 55px;
+    position: absolute;
+    left: 600px;
+    top: 35%;
+    background-color: rgb(191, 171, 171);
+    box-shadow: 0 0 20px 0 gray;
+    transform: rotate(30deg);
+    padding: 2%;
+
+}
+
+/* banner section ended */
+
+
+/* about us section started */
+
+#AboutSection{
+    padding: 20px;
+
+}
+
+ #AboutSection>h1{
+    font-size: 50px;
+    color: #872341;
+ }
+
+ #AboutmainDiv{
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    align-items: center;
+
+ }
+ #AboutTextdiv>h1{
+    font-size: 32px;
+ }
+
+ #AboutTextdiv>p{
+    font-size: 24px;
+    text-align: justify;
+    line-height: 32px;
+ }
+
+#AboutTextdiv>button{
+    padding: 10px 30px;
+    font-size: 16px;
+    border: none;
+    background-color: #ed1331;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0 0 20px 0 gray;
+}
+
+#AboutTextdiv>button:hover{
+
+    background-color: #650611;
+    transition: 1s;
+}
+
+ #AboutImgdiv>img{
+    height: 90%;
+    width: 80%;
+   
+ }
+
+/* about us section ended */
+
+
+/* shop section started */
+
+#Shopsection>h1{
+    padding: 15px;
+    font-size: 40px;
+    color: #872341;
+}
+
+
+#Shopsectionmaindiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 15px;
+
+}
+.ShopsectionCard{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    box-shadow: 20px 2px 20px 2px dimgrey;
+    background-color: whitesmoke;
+}
+
+.ShopsectionCard:hover{
+    background-color: antiquewhite;
+    transition: 1s;
+
+}
+
+
+.Cardimgdiv>img{
+    height: 400px;
+    width: 100%;
+}
+
+.Cardtextdiv{
+    padding: 20px;
+}
+
+
+
+.Cardtextdiv>h3{
+    color:#ed1331 ;
+    font-size: 28px;
+}
+
+.Cardtextdiv>h4{
+ font-size: 22px;
+}
+
+.Cardtextdiv>p{
+    font-size: 18px;
+}
+
+.Cardtextdiv>button{
+    padding: 10px 30px;
+    font-size: 16px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0 0 20px 0 gray;
+}
+
+.Cardtextdiv>button:hover{
+
+    background-color: rgb(13, 188, 71);
+    transition: 1s;
+}
+
+
+/* shop section ended */
+
+
+
+/* Review section started */
+
+#ReviewSection>h1{
+    font-size: 40px;
+    color: #872341;
+}
+
+
+#ReviewSection{
+    padding: 20px;
+    
+}
+
+
+#ReviewSectionmaindiv{
+    display: flex;
+    gap:20px ;
+   
+}
+
+.ReviewSectioncard:hover{
+    background-color: rgb(233, 10, 36);
+}
+.ReviewSectioncard{
+    color: aliceblue;
+    padding: 20px 10px;
+    text-align: center; background-color: rgb(227, 95, 95);
+}
+
+
+.ReviewSectioncard>img{
+    height: 150px;
+    width: 150px;
+    border-radius:50%;
+   
+}
+
+#ReviewSectioncard>h2{
+    color: goldenrod;
+}
+
+
+
+/* Review section ended */
+
+
+/* Footer section started */
+#footerSection{
+    box-sizing: border-box;
+    padding:5px 10px 5px 10px;
+    background-color: oldlace;
+    border: none;
+}
+
+#footerSection:hover{
+    background-color: rgb(239, 225, 198);
+}
+
+.footerSectionimg{
+   display: flex;
+   height: 100px;
+   gap: 20px;
+   border-radius: 50%;
+   padding-left:500px;
+   padding-top: 10px;
+   
+}
+#footerSection>h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+#footerSection>p{
+    text-align:center;
+    font-size: 20px;
+
+}
+#footerMaindiv{
+    display: flex;
+    justify-content: space-around;
+}
+.footerdiv{
+    text-align: center;
+}
+.footerdivimg{
+   height: 100px;
+}
+.footerdiv>h1,h4{
+    font-size: 20px;
+}
+#footerSection>h2,h3{
+    text-align: center;
+    
+}
+
+
+
+/* Footer section ended */
